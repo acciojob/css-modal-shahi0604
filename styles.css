@@ -1,5 +1,6 @@
 /*  your css code here. If applicable */
 .modal {
+	
   display: none;
   position: fixed;
   inset: 0;
@@ -10,12 +11,14 @@
 
 .modal-content {
   background: #fff;
-  width: 300px;
+  width: 90%;
   border-radius: 6px;
   padding: 10px;
 }
 
 .modal-header {
+	
+	background-color:green;
   display: flex;
   justify-content: space-between;
   align-items: center;
